@@ -1,6 +1,14 @@
-﻿main{
+main{
     position: relative;
     height: 100vh;
+}
+
+
+p1 {
+    position: absolute;
+    background: hsL(var(--hue,343),100%,60%);
+    width: 4vmin;
+    height: 80vmin;
 }
 
 p{
@@ -32,6 +40,6 @@ svg{
 
 body{
     background: hsL(0,0%,0%);
-    height: 110vh;
+    height: 100vh;
     overflow: hidden;
 }
