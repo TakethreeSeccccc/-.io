@@ -5,10 +5,10 @@ main{
 
 
 p1 {
-    position: absolute;
+    position: relative;
     background: hsL(var(--hue,343),100%,60%);
-    width: 4vmin;
-    height: 80vmin;
+    width: 300vmin;
+    height: 10vmin;
 }
 
 p{
